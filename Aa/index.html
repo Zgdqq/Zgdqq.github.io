@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        .box{
+            width: 100%;
+            height: 100%;
+            background-color: #121212;
+            padding-bottom: 40px;
+        }
+
+        header{
+            width: 80%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+            box-sizing: border-box;
+        }
+        header>img{
+            width: 100px;
+            height: 100px;
+        }
+
+        .nav{
+            width: 500px;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav>a{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+
+        /*  */
+        .titleH1 {
+            background: linear-gradient(90deg, rgb(228, 135, 29), #59b0d8, #7f2094, #59a5c8, #1ea);
+            background-size: 500% auto;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            animation: gradientAnimation 5s linear infinite;
+            text-align: center;
+            font-size: 108px;
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0 50%;
+            }
+        }
+
+        /*  */
+
+        .conA{
+            width: 900px;
+            padding: 25px;
+            margin:40px auto;
+            box-shadow: 0 8px 16px 0 rgba(128, 0, 128, 0.6), 0 12px 40px 0 rgba(128, 0, 128, 0.6);
+            font-weight: 400;
+            background-color: black;
+            border-radius: 20px;
+            box-sizing: border-box;
+
+        }
+
+        .titleH3{
+            background: linear-gradient(90deg, rgb(228, 135, 29), #59b0d8, #7f2094, #59a5c8, #1ea);
+            background-size: 500% auto;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            animation: gradientAnimation 5s linear infinite;
+            text-align: center;
+            font-size: 48px;
+        }
+
+
+        .titleP{
+            height: 25px;
+            line-height: 25px;
+            color: white;
+        }
+
+        .min_conA{
+            margin: 30px 0;
+            width: 100%;
+            padding: 16px;
+            box-sizing: border-box;
+            border-radius: 25px;
+            border: 4px solid purple;
+        }
+
+        .link{
+            color: white;
+            text-align: center;
+        }
+
+        .linkActive{
+            color: purple;
+        }
+
+        /*  */
+        .copyBtn{
+            width: 80px;
+            height: 45px;
+            text-align: center;
+            line-height: 45px;
+            background-color: #dc21e2;
+            color: white;
+            margin: 10px auto;
+            border-radius: 10px;
+        }
+
+        .textP{
+            color: white;
+        }
+
+
+        .conB{
+            width: 400px;
+            padding: 25px;
+            margin:140px auto;
+            box-shadow: 0 8px 16px 0 rgba(128, 0, 128, 0.6), 0 12px 40px 0 rgba(128, 0, 128, 0.6);
+            font-weight: 400;
+            background-color: black;
+            border-radius: 20px;
+            box-sizing: border-box;
+        }
+
+        .conB p{
+            text-align: center;
+            color: white;
+        }
+
+
+        .conC{
+            width: 800px;
+            padding: 25px;
+            margin:40px auto;
+            box-shadow: 0 8px 16px 0 rgba(128, 0, 128, 0.6), 0 12px 40px 0 rgba(128, 0, 128, 0.6);
+            font-weight: 400;
+            background-color: black;
+            border-radius: 20px;
+            box-sizing: border-box; 
+        }
+
+        .conC p{
+            color: white;
+        }
+
+        .marquee{
+            height: 80px;
+            width: 100%;
+            border-top: 2px solid gray;
+            border-bottom: 2px solid gray;
+        }
+
+        marquee{
+            color: white;
+            width: 100%;
+            height: 80px;
+            line-height: 80px;
+        }
+
+        marquee>h3{
+            background: linear-gradient(90deg, rgb(228, 135, 29), #59b0d8, #7f2094, #59a5c8, #1ea);
+            background-size: 500% auto;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            animation: gradientAnimation 5s linear infinite;
+            text-align: center;
+            font-size: 28px;
+           
+        }
+
+        /*  */
+
+        .imgA{
+            width: 300px;
+            height: 300px;
+            margin:70px auto;
+        }
+        .imgA>img{
+            width: 100%;
+            height: 100%;
+        }
+
+
+        .transparent {
+        color: #ffffff;
+        font-family: 'Pangolin-Regular';
+        text-shadow: 3px 0px 0px #000;
+        text-align: center;
+        font-size: 70px;
+    }
+
+    .fxBtn{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .fxBtn>a{
+        width: 150px;
+        height: 150px;
+        background-color: #131313;
+        margin: 0 20px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .fxBtn>a>img{
+        width: 100%;
+        height: 100%;
+    }
+</style>
+</head>
+<body>
+    <div class="box">
+        <header>
+            <img src="./img/logo.JPG" alt="" srcset="">
+            <div class="nav">
+                <a href="">Presale</a>
+                <a href="">Contract</a>
+                <a href="">About</a>
+                <a href="">Follow Us</a>
+            </div>
+        </header>
+
+        <h1 class="titleH1">KOALA</h1>
+        <div class="imgA">
+            <img src="./img/A1.png" alt="" srcset="">
+        </div>
+        <div class="conA">
+            <h3 class="titleH3">Presale</h3>
+            <p class="titleP">Ending</p>
+            <div class="min_conA">
+                <div class="link">
+                    <span>Presale Address:</span>
+                    <span class="linkActive">HDHxV3SX9idA4Mg5msXBY6FTyisHJAEapiNLRCPEQx44</span>
+                </div>
+                <div class="copyBtn">
+                    Copy
+                </div>
+                <p class="textP">
+                    We are special koalas, living in eucalyptus jungle. We abide by the spirit of harmony and respect the laws of nature! We are Solana's special memes, coexisting in this universe. This is our home, and koalas are with nature.</p>
+                <p class="textP">
+                    We now start the pre-sale phase: Single wallet pre-sale amount 0.5-50solana The pre-sale limit is 10,000 solana, or if any conditions are met, the pre-sale will stop immediately. Tokenomics: 45% LP 45% Pre-sale 10% airdrop
+                </p>
+            </div>
+
+
+           
+        </div>
+
+        <div class="conB">
+            <h3 class="titleH3">Contract</h3>
+            <p>
+                <!--  -->
+            </p>
+        </div>
+
+        <div class="conC">
+            <h3 class="titleH3">About</h3>
+            <p>There was a koala named "Ken 'ola" who lived alone in the forest. He always feels lonely and helpless. He has no friends and eats eucalyptus leaves by himself every day.</p>
+            <p>One day, Ken 'ola saw the other animals playing together, and he was very envious that he tried to approach them, but was always rejected.
+                Ken 'ola felt so useless that he began to wonder if he was really fit to live in the forest.</p>
+            <p>However, Ken 'ola did not give up on it and continued to try hard to make friends. Finally, one of the sloths noticed Ken 'ola's loneliness and went over to greet her. Ken 'ola was so happy that he and the sloth became good friends.</p>
+            <p>Since then, Ken Aoola no longer feels lonely it understands that even if there will be difficulties and setbacks in life, as long as you don't give up, you will always find your own happiness. All right, baby! Grandma wants you to know that no matter what the difficulties, just like Aurora, just keep going and believe that happiness will come. Go to sleep!</p>
+        
+        </div>
+
+        <div class="marquee">
+            <marquee behavior="scroll" direction="" scrollamount="30">
+                <h3>Join the KOALA Telegram now and follow us on Twitter! Enjoy numerous benefits including random
+                    airdrops, giveaways, and the chance to be a part of a thriving memecoin community...</h3>
+            </marquee>
+        </div>
+
+        <div class="imgA">
+            <img src="./img/A2.jpg" alt="" srcset="">
+        </div>
+        <h2 class="transparent">Follow Us</h2>
+        <h2 class="transparent">ON SOCIAL MEDIA</h2>
+
+        <div class="fxBtn">
+            <a href="https://twitter.com/koalacoin888">
+                <img src="./img/twitter-2.png" alt="" srcset="">
+            </a>
+            <a href="https://t.me/+aut3HftFebVhMTk1">
+                <img src="./img/telegram-2.png" alt="" srcset="">
+            </a>
+        </div>
+      
+    </div>
+</body>
+</html>
